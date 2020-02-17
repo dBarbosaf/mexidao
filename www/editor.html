@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+
+  <script src="components/loader.js"></script>
+  <script src="components/jquery-3.4.1.min.js"></script>
+  <script src="components/acao.js"></script>
+
+
+  <link rel="stylesheet" href="components/loader.css">
+  <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+  <h1>APP Filtros</h1>
+
+  <div class="container">
+    
+       <div class="row">
+        <div class="col-xs-12">
+            <div class="form-group">
+              <button class="btn btn- btn-block" id="camera"><span class="glyphicon glyphicon-camera">foto</button>
+              <img src="img/picantov.jpg" id="imagem" class="img-responsive">
+            </div>
+        </div>
+      </div>
+
+
+                        <form id="imageEditor">
+                           <label for="opa">Opacidade:</label>
+                              <input id="opaci" name="opa" type="range" min="1" max="100" value="0" onchange="editImage();"> 
+                           <label for="sat">Saturação:</label>
+                              <input id="saturacao" name="opa" type="range" min="1" max="100" value="0" onchange="editImage();"> 
+                           <label for="escala">Escala Cinza:</label>
+                              <input id="escala" name="opa" type="range" min="1" max="100" value="0" onchange="editImage();"> 
+                           <label for="blu">Desfoque:</label>
+                              <input id="blur" name="opa" type="range" min="1" max="100" value="0" onchange="editImage();">                      
+    </form>
+
+  </div>
+  <div class="row">
+        <div class="col-xs-12">
+          <a href="index.html"><button class="btn btn-danger">Voltar</button></a>
+        </div>
+      </div>
+ </body>
+</html>

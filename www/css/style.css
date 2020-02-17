@@ -1,0 +1,37 @@
+/**/
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-item{
+  width: 60vh;
+  height: 60vh;
+}
+.range{
+  background-color: #8FADBF;
+}
+
+#btn:focus{
+  outline: 0;
+
+}
+
+
+
+#btn{
+  border-radius: 20px;
+  margin-top: 10px;
+  width: 130px;
+  margin-left: 32%;
+  background: rgb(59, 79, 168);
+  color: white;
+  height: 50px;
+}
+
+#map{
+  margin-top: 25px;
+  width: 100%;
+  height: 40vh;
+}
